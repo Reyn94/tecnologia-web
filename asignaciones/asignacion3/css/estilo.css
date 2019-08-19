@@ -94,6 +94,13 @@ h4 {
 .flex {
   display: flex;
 }
+footer{
+  background: black;
+  color: white;
+  width:90%;
+  margin-left: 1cm;
+  text-align: center;
+}
 
 @media screen and (max-width: 1100px) and (min-width: 700px) {
   #logo {
@@ -189,5 +196,12 @@ h4 {
 
   .flex {
     display: flex;
+  }
+  footer{
+    background: brown;
+    color: white;
+    width:90%;
+    margin-left: 1cm;
+    text-align: center;
   }
 }
