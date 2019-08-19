@@ -1,0 +1,193 @@
+#logo {
+  width: 4cm;
+  height: 2.5cm;
+  float: left;
+  margin-left: 2cm;
+}
+body {
+  font-size: 20px;
+}
+header {
+  width: 90%;
+  height: 100px;
+  margin-left: 2cm;
+  background-color: black;
+}
+.menu {
+  padding: 1cm;
+  float: right;
+  display: flex;
+  box-sizing: border-box;
+  perspective: 200px;
+}
+.menu ul {
+  display: flex;
+  margin: auto;
+}
+.menu li {
+  list-style: none;
+  margin-right: 2em;
+
+  font-family: "Courgette", cursive;
+}
+.menu li a {
+  color: white;
+}
+.menu li:hover {
+  background: black;
+  font-style: italic;
+  cursor: pointer;
+  transition: 300ms;
+}
+.menu ul li ul {
+  *display: none;
+  flex-direction: column;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  transform: rotateY(240deg) scale(0);
+  transition: 1s;
+}
+.menu ul li:hover > ul {
+  transform: rotateY(0deg) scale(1);
+  transition: all 1s;
+}
+.imagen img{
+  margin-top: 1cm;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: 1cm;
+}
+.texto h1{
+    margin-top: 3cm;
+    margin-left: 2em;
+    margin-right: 1em;
+  }
+.texto p{
+  margin-top: 1cm;
+  margin-left: 4em;
+  margin-right: 1em;
+}
+.image img {
+  width: 600px;
+  height: 400px;
+  margin-top: 2cm;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 1cm;
+  margin-right: 16px;
+}
+.text {
+  margin-top: 1cm;
+  margin-left: 3em;
+}
+h1 {
+  font-family: "Courgette", cursive;
+}
+p {
+  font-family: "Lora", serif;
+}
+h4 {
+  font-family: "Courgette", cursive;
+}
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 700px) {
+  #logo {
+    width: 4cm;
+    height: 2.5cm;
+    float: left;
+    margin-left: 1cm;
+  }
+  body {
+    font-size: 18px;
+  }
+  header {
+    width: 80%;
+    height: 100px;
+    background-color: brown;
+  }
+  .menu {
+    padding: 1cm;
+    float: right;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .menu ul {
+    display: flex;
+    margin: auto;
+  }
+  .menu li {
+    list-style: none;
+    margin-right: 2em;
+
+    font-family: "Courgette", cursive;
+  }
+  .menu li a {
+    color: white;
+  }
+  .menu li:hover {
+    background: black;
+    font-style: italic;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .menu ul li ul {
+    *display: none;
+    flex-direction: column;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    transform: rotateY(240deg) scale(0);
+    transition: 1s;
+  }
+  .menu ul li:hover > ul {
+    transform: rotateY(0deg) scale(1);
+    transition: all 1s;
+  }
+  .imagen img {
+    width: 500px;
+    height: 300px;
+    margin-top: 1cm;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-left: 1cm;
+  }
+  .texto h1 {
+    margin-top: 1cm;
+    margin-left: 2em;
+  }
+  .texto p {
+    margin-top: 1cm;
+    margin-left: 4em;
+  }
+  .image img {
+    width: 400px;
+    height: 400px;
+    margin-top: 2cm;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 1cm;
+    margin-right: 16px;
+  }
+  .text {
+    margin-top: 1cm;
+    margin-left: 3em;
+  }
+  h1 {
+    font-family: "Courgette", cursive;
+  }
+  p {
+    font-family: "Lora", serif;
+  }
+  h4 {
+    font-family: "Courgette", cursive;
+  }
+
+  .flex {
+    display: flex;
+  }
+}

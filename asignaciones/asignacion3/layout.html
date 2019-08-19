@@ -4,27 +4,68 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Lora|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Lugares hermosos de Bolivia</title>
 </head>
 
 <body>
     <header>
-        <img src="imagenes/logo.JPG" alt="logo">
-        <h1>Estudiante: Reynaldo Acha Mayorga</h1>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li><a href="">lugares</a></li>
-                <ul class="submenu">
-                    <li><a href="">Salar de Uyuni</a></li>
-                    <li><a href="">Parque Madidi</a></li>
-                </ul>
-                <li><a href="">contacto</a></li>
+        <img id="logo" src="imagenes/logo.png" alt="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="">Lugares</a>
+                    <ul>
+                        <li><a href="">Salar de Uyuni</a></li>
+                        <li><a href="">Parque Madidi</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contacto</a></li>
                 <li><a href="">Hoteles</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <p>Aun no se ha agregado contenido</p>
+        <div class="flex">
+            <div class="imagen"><img src="imagenes/wa.jpg" alt="ima1"></div>
+            <div class="texto">
+                <h1>Bienvenido a lugares hermosos de Bolivia</h1>
+                <p>Bolivia es un país soberano situado en la región centro-occidental de América del Sur,
+                    <br> Políticamente se constituye como un estado plurinacional,
+                    <br> descentralizado con autonomías.
+                    <br> Está organizado en nueve departamentos.
+                    <br> Su capital constitucional es Sucre,
+                    <br> Tiene una amplia variedad de paisajes, rica historia, importante cultura, tradiciones
+                    ancestrales
+                    <br> y cálidas personas.</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="text">
+                    <h1>Dato Curioso</h1>
+                <p>
+                    El turismo en Bolivia cuenta con variados atractivos turísticos, debido a su diversa cultura, regiones geográficas, rica historia y gastronomía.
+                    <br>Nosotros tenemos la responsabilidad de informarle de nuestros 2 sitios turisticos mas destacados
+                    <br>en los cuales podra saber mas sobre su gastronomia y paisajes mediante nuestro menu de
+                    navegacion.
+                    <br><strong>Podemos brindarle un poco de informacion sobre estos lugares aqui</strong>
+                    <br>
+                    <h4>El parque nacional Madidi</h4> Considerado por la National Geographic como uno de los lugares
+                    imprescindibles a visitar en el mundo,
+                    <br>es parte del circuito del turismo en Bolivia.
+                    <br>Se caracteriza por ser uno de los parques con más biodiversidad, en flora y fauna
+                    <br>así como en pisos ecológicos ya que va desde las nieves perpetuas hasta la llanura amazónica y
+                    <br>albergando etnias comunitarias en su territorio.
+                    <br>
+                    <h4>El salar de Uyuni</h4>Es el mayor desierto de sal del mundo, con una superficie de 12.000 km².
+                    <br>Está situado a unos 3.650 metros de altura en la región del sudoeste de Bolivia (Departamento de
+                    Potosí)
+                    <br>en el Altiplano de Bolivia, sobre la Cordillera de los Andes.
+                </p>
+            </div>
+            <div class="image"><img src="imagenes/we.jpg" alt="ima2"></div>
+        </div>
     </main>
 
     <footer>
