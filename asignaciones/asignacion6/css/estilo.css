@@ -28,5 +28,5 @@ justify-content:center;
 }
 .contenedor img:hover {
 	border: 5px ridge #fff;
-	opacity: 10;
+	opacity: 1;
 }
