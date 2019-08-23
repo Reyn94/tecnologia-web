@@ -1,0 +1,52 @@
+
+html {
+    font-family: sans-serif;
+    background-image: url(https://images.france.fr/zeaejvyq9bhj/4bO2zlEqdGYMGUx9I30l4l/f1e886d4d1f4873c5ff4b2939315ef43/N029741_-_Foto_1.jpg?w=1120&h=490&q=70&fl=progressive&fit=fill);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-style: italic;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+  }
+  
+  section p {
+    margin: 5px 0;
+  }
+  
+  section ul {
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+  }
