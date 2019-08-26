@@ -1,0 +1,31 @@
+{
+  "Lugares": [
+    {
+      "Nombre": "Parque Madidi",
+      "Ubicacion": "Beni",
+      "Recomendaciones":[
+        "Ropa delgada, ligera y cómoda", 
+        "Vacunas contra la fiebre amarilla y malaria",
+        "Botiquín de primeros auxilios con repelente contra insectos", 
+        "Antihistamínicos, Antipiréticos y Antiofídicos",
+        "Pasaporte"
+      ],
+      "Caracteristica":"El parque se caracteriza principalmente por ser el área protegida con mayor biodiversidad tanto en flora como en fauna del mundo, así como en pisos ecológicos ya que va desde las nieves perpetuas hasta la llanura amazónica y albergando etnias comunitarias en su territorio"
+    },
+    {
+        "Nombre": "Salar de Uyuni",
+        "Ubicacion": "Potosi",
+        "Recomendaciones":[
+            "Ropa cómoda y abrigada",
+            "Calzado cómodo (idealmente de trekking)",
+            "Traje de baño y toalla (para Termas de Polques)",
+            "Anteojos de sol",
+            "Bloqueador solar",
+            "Saco de dormir",
+            "Agua (1 litro por persona, por día)",
+            "Pasaporte"
+        ],
+        "Caracteristica":"es considerado a nivel mundial como uno de los paisajes más extremos y notables no únicamente de toda Sudamérica, si no de la Tierra. Extendiéndose a más de 4.050 millas cuadradas en el Altiplano, es el salar más grande del mundo, que nació debido a lagos prehistóricos evaporados hace mucho tiempo. Aquí, una espesa costra de sal se extiende hasta el horizonte, cubierta por acolchados y poligonales patrones de sal que se elevan desde el suelo."
+      }
+    ]
+}
