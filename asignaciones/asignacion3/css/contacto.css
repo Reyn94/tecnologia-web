@@ -1,0 +1,58 @@
+#logo img {
+    width: 3.5cm;
+    height: auto;
+    float: left;
+    margin-left: 2cm;
+    margin-top: 5px;
+  }
+  body {
+    font-size: 20px;
+    background-image: url(../imagenes/viajero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  header {
+    width: 90%;
+    height: 100px;
+    margin-left: 2cm;
+    background-color: black;
+  }
+  .menu {
+    padding: 1cm;
+    float: right;
+    display: flex;
+    box-sizing: border-box;
+    perspective: 200px;
+  }
+  .menu ul {
+    display: flex;
+    margin: auto;
+  }
+  .menu li {
+    list-style: none;
+    margin-right: 2em;
+    font-family: "Courgette", cursive;
+  }
+  .menu li a {
+    color: white;
+  }
+  .menu li:hover {
+    background: black;
+    font-style: italic;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .menu ul li ul {
+    *display: none;
+    flex-direction: column;
+    position: absolute;
+    background: orange;
+    margin-top: 15px;
+    transform: rotateY(240deg) scale(0);
+    transition: 1s;
+  }
+  .menu ul li:hover > ul {
+    transform: rotateY(0deg) scale(1);
+    transition: all 1s;
+  }

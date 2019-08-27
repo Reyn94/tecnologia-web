@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Lora|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="imagenes/loguito.png" alt="logo"></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="layout.html">Inicio</a>
+                <li><a href="">Lugares</a>
+                    <ul>
+                        <li><a href="">Salar de Uyuni</a></li>
+                        <li><a href="">Parque Madidi</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="">Hoteles</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="">Resumen</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="gracias.html">
+            Ingrese su nombre completo:
+            <input type="text" name="nombre" pattern="[A-Za-z].{5,20}" required>
+            <br><br>
+            Ingrese su correo electronico:
+            <input type="email" name="direccionemail" placeholder="ejemplo@mail.com">
+            <br><br>
+            Ingrese su numero de telefono:<input type="tel" name="telefono" placeholder="(Código de área) Número">
+            <br><br>
+            Ingrese su codigo postal:<input type="number" name="codigopostal" required>
+            <br><br>
+            Ingrese su fecha de nacimiento:<input type="date" name="fechanacimiento">
+            <br><br>
+            Tipo de usuario:<input list="tipos de usuario" name="usuarios">
+            <datalist id="tipos de usuario">
+                <option value="Casual">
+                <option value="Frecuente">
+                <option value="Diario">
+            </datalist>
+            <br><br>
+            Seleccione el lugar del que desea mas informacion: <br><br><select name="Lugares">
+                <option value="volvo">Parque Madidi</option>
+                <option value="saab">Salar de Uyuni</option>
+            </select>
+            <br><br>
+            Informacion adicional <br><br><textarea class="comentario" name="adicional" width:700px></textarea>
+            <br><br> <input type="submit" value="Aceptar">
+        </form>
+    </main>
+</body>
+</html>

@@ -15,28 +15,30 @@
 
 <body>
     <header>
-        <img id="logo" src="imagenes/logo.png" alt="logo">
+        <div id="logo"><img src="imagenes/loguito.png" alt="logo"></div>
         <nav class="menu">
             <ul>
+                <li><a href="layout.html">Inicio</a>
                 <li><a href="">Lugares</a>
                     <ul>
                         <li><a href="">Salar de Uyuni</a></li>
                         <li><a href="">Parque Madidi</a></li>
                     </ul>
                 </li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="">Hoteles</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="">Resumen</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="flex">
-            <div class="imagen"><img src="imagenes/wa.jpg" alt="ima1"></div>
+           <div class="imagen"><img src="imagenes/wa.jpg" alt="ima1"></div>
             <div class="texto">
                 <h1>Bienvenido a lugares hermosos de Bolivia</h1>
-                <p>Bolivia es un país soberano situado en la región centro-occidental de América del Sur,
-                    <br> Políticamente se constituye como un estado plurinacional,
-                    <br> descentralizado con autonomías.
+                <p>Bolivia es un país soberano situado en la región centro-occidental de América del Sur.
+                    <br> Políticamente se constituye como un estado plurinacional, descentralizado con autonomías.
                     <br> Está organizado en nueve departamentos.
                     <br> Su capital constitucional es Sucre,
                     <br> Tiene una amplia variedad de paisajes, rica historia, importante cultura, tradiciones
@@ -75,9 +77,8 @@
         <p>
             &copy;2019 Reynaldo Acha - Location: Bolivia
             <a href="http://www.upds.edu.bo/"> UPDS - Cbba.</a>
-            <div id="fecha"><script>fecha();</script></div>
-            <div id="hora"><script type="text/javascript">mostrarhora();</script>
-            </div>
+            <div id="fecha"><p>Hoy es: <script>fecha();</script></p></div>
+            <div id ="hora"><script>mostrarhora();</script></div>
         </p>
     </footer>
 </body>
