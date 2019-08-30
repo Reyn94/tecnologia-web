@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="imagenes/loguito.png">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Lora|Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilo.css">
@@ -15,22 +16,21 @@
 
 <body>
     <header>
-        <div id="logo"><img src="imagenes/loguito.png" alt="logo"></div>
-        <nav class="menu">
-            <ul>
+        <div class="container"><img src="imagenes/loguito.png" alt="logo"></div>
+        <nav id="site-nav" class="site-nav">
+            <ul class="submenu">
                 <li><a href="layout.html">Inicio</a>
-                <li><a href="">Lugares</a>
-                    <ul>
-                        <li><a href="">Salar de Uyuni</a></li>
-                        <li><a href="">Parque Madidi</a></li>
-                    </ul>
-                </li>
+                <li><a href="salar.html">Salar de Uyuni</a></li>
+                <li><a href="madidi.html">Parque Madidi</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="">Hoteles</a></li>
+                <li><a href="hoteles.html">Hoteles</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="">Resumen</a></li>
+                <li><a href="info.html">Algo mas</a></li>
             </ul>
         </nav>
+        <div id="menu-toggle" class="menu-toggle" onclick="MenuDesplegable()">
+            <div class="menu"></div>
+        </div>
     </header>
     <main>
         <div class="flex">
@@ -54,14 +54,13 @@
                     <br>Nosotros tenemos la responsabilidad de informarle de nuestros 2 sitios turisticos mas destacados
                     <br>en los cuales podra saber mas sobre su gastronomia y paisajes mediante nuestro menu de
                     navegacion.
-                    <br><strong>Podemos brindarle un poco de informacion sobre estos lugares aqui</strong>
+                    <br><br><strong>Podemos brindarle un poco de informacion sobre estos lugares aqui</strong>
                     <br>
                     <h4>El parque nacional Madidi</h4> Considerado por la National Geographic como uno de los lugares
                     imprescindibles a visitar en el mundo,
                     <br>es parte del circuito del turismo en Bolivia.
-                    <br>Se caracteriza por ser uno de los parques con más biodiversidad, en flora y fauna
-                    <br>así como en pisos ecológicos ya que va desde las nieves perpetuas hasta la llanura amazónica y
-                    <br>albergando etnias comunitarias en su territorio.
+                    <br>Se caracteriza por ser uno de los parques con más biodiversidad, en flora y fauna.
+                    <br>así como en pisos ecológicos ya que va desde las nieves perpetuas hasta la llanura amazónica y albergando etnias comunitarias en su territorio.
                     <br>
                     <h4>El salar de Uyuni</h4>Es el mayor desierto de sal del mundo, con una superficie de 12.000 km².
                     <br>Está situado a unos 3.650 metros de altura en la región del sudoeste de Bolivia (Departamento de
